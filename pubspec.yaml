@@ -1,0 +1,17 @@
+name: ferramenta_avaloo
+version: 1.0.0+1
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.1.0 <3.0.0'
+dependencies: 
+  dio: ^3.0.6
+  rxdart: ^0.22.6
+  bloc_pattern: ^2.5.1
+  flutter: 
+    sdk: flutter
+dev_dependencies: 
+  mockito: ^4.1.1
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
