@@ -1,15 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:ferramenta_avaloo/app/modules/home/home_module.dart';
+
+import 'modules/home/home_page.dart';
 
 class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Slidy',
+      title: 'Ferramenta Avaloo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.purple,
       ),
-      home: HomeModule(),
+      home: HomePage(),
     );
   }
 }
