@@ -19,15 +19,15 @@ class ResultModel {
         _deadlineIndex = deadlineIndex,
         _costIndex = costIndex;
 
-  double get percentage => _percentage;
+  String get percentage => _percentage.toStringAsFixed(2);
 
-  double get plannedValue => _plannedValue;
+  String get plannedValue => _plannedValue.toStringAsFixed(2);
 
-  double get addedValue => _addedValue;
+  String get addedValue => _addedValue.toStringAsFixed(2);
 
-  double get deadlineIndex => _deadlineIndex;
+  String get deadlineIndex => _deadlineIndex.toStringAsFixed(2);
   bool get isLate => _deadlineIndex < 1;
 
-  double get costIndex => _costIndex;
+  String get costIndex => _costIndex.toStringAsFixed(2);
   bool get isOverCost => _costIndex < 1;
 }

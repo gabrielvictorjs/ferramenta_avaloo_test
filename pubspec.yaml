@@ -2,7 +2,7 @@ name: ferramenta_avaloo
 version: 1.0.0+1
 description: A new Flutter project.
 environment: 
-  sdk: '>=2.1.0 <3.0.0'
+  sdk: '>=2.5.0 <3.0.0'
 dependencies: 
   dio: ^3.0.6
   rxdart: ^0.22.6

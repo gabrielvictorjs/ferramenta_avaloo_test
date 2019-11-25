@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'modules/home/home_page.dart';
+import 'routes/routes.dart';
 
 class AppWidget extends StatelessWidget {
   @override
@@ -9,9 +9,10 @@ class AppWidget extends StatelessWidget {
       title: 'Ferramenta Avaloo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Colors.purple,
+        primaryColor: Colors.green,
       ),
-      home: HomePage(),
+      routes: routes(context),
+      initialRoute: "home",
     );
   }
 }
